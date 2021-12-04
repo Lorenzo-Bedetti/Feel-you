@@ -1,0 +1,329 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+
+/* SPAZIO INTERFACCIA */
+	.interfaccia {
+		margin-top: 0px;
+		float: right;
+		margin-right: 200px;
+		margin-left: 100px;
+		border-radius: 30px;
+		background-color:black;
+		width: 375px;
+		height: 812px;
+		box-sizing: border-box;
+		box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.9), inset 10px 10px 30px rgba(0, 0, 0, 0.9);
+	}
+
+		/* STILI DI TESTO */
+		@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+		.indice {
+			padding: 10px 20px;
+			font-family: 'Raleway', sans-serif;
+			font-weight: normal;
+			font-size: 15px;
+			border: 1px solid black;
+			border-radius: 30px;
+			color: black;
+			text-decoration: none;
+			cursor: pointer;
+			transition: 0.5s;
+		}
+		.indice:hover {
+			font-weight: bold;
+			transition: 0.5s;
+		}
+
+		h2 {
+			font-family: 'Raleway', sans-serif;
+			font-size: 60px;
+			color: black;
+		}
+		h3 {
+			font-family: 'Raleway', sans-serif;
+			font-size: 12px;
+			font-weight: normal;
+		}
+		p {
+			font-family: 'Raleway', sans-serif;
+			font-size: 15px;
+			color: black;
+		}
+		/* TITOLO INTERFACCIA */
+		h1 {
+			width: 375px;
+			height: 40px;
+			position: relative;
+			top: 37px;
+			font-family: 'Raleway', sans-serif;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 30px;
+			line-height: 35px;
+			text-align: center;
+			color: white;
+			opacity: 50%;
+		}
+
+	/* SPAZIO BOTTONI */
+	.container {
+		margin-top: 54px;
+		margin-left: 20px;
+		margin-right: 20px;
+		width: 335px;
+		height: 450px;
+		overflow: auto;
+		border-radius: 30px;
+		box-sizing: border-box;
+		box-shadow: 0px 4px 4px rgba(200, 200, 200, 0.5), inset 0px 2px 4px rgba(200, 200, 200, 0.5);
+	}
+
+        /* SCROLL-BAR */
+        ::-webkit-scrollbar {
+            width: 4px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: rgba(200, 200, 200, 0.4);
+        }
+
+    /* GRIGLIA */
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    /* BOTTONI */
+    .btn {
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+        /* PETALO 1 */
+        #serenità {
+            background-image: url('img/serenità.png');
+            background-size: 100px 100px;
+        }
+        #felicità {
+            background-image: url('img/felicità.png');
+            background-size: 100px 100px;
+        }
+        #estasi {
+            background-image: url('img/estasi.png');
+            background-size: 100px 100px;
+        }
+        /* PETALO 2 */
+        #accettazione {
+            background-image: url('img/accettazione.png');
+            background-size: 100px 100px;
+        }
+        #fiducia {
+            background-image: url('img/fiducia.png');
+            background-size: 100px 100px;
+        }
+        #ammirazione {
+            background-image: url('img/ammirazione.png');
+            background-size: 100px 100px;
+        }
+        /* PETALO 3 */
+		#sgomento {
+			background-image: url('img/sgomento.png');
+			background-size: 100px 100px;
+		}
+		#paura {
+			background-image: url('img/paura.png');
+			background-size: 100px 100px;
+		}
+		#terrore {
+			background-image: url('img/terrore.png');
+			background-size: 100px 100px;
+		}
+		/* PETALO 4 */
+		#distrazione {
+			background-image: url('img/distrazione.png');
+			background-size: 100px 100px;
+		}
+		#sorpresa {
+			background-image: url('img/sorpresa.png');
+			background-size: 100px 100px;
+		}
+		#stupore {
+			background-image: url('img/stupore.png');
+			background-size: 100px 100px;
+		}
+		/* PETALO 5 */
+		#pensiero {
+			background-image: url('img/pensiero.png');
+			background-size: 100px 100px;
+		}
+		#tristezza {
+			background-image: url('img/tristezza.png');
+			background-size: 100px 100px;
+		}
+		#dolore {
+			background-image: url('img/dolore.png');
+			background-size: 100px 100px;
+		}
+		/* PETALO 6 */
+		#noia {
+			background-image: url('img/noia.png');
+			background-size: 100px 100px;
+		}
+		#disgusto {
+			background-image: url('img/disgusto.png');
+			background-size: 100px 100px;
+		}
+		#ripugnanza {
+			background-image: url('img/ripugnanza.png');
+			background-size: 100px 100px;
+		}
+		/* PETALO 7 */
+		#fastidio {
+			background-image: url('img/fastidio.png');
+			background-size: 100px 100px;
+		}
+		#rabbia {
+			background-image: url('img/rabbia.png');
+			background-size: 100px 100px;
+		}
+		#furia {
+			background-image: url('img/furia.png');
+			background-size: 100px 100px;
+		}
+		/* PETALO 8 */
+		#interesse {
+			background-image: url('img/interesse.png');
+			background-size: 100px 100px;
+		}
+		#aspettativa {
+			background-image: url('img/aspettativa.png');
+			background-size: 100px 100px;
+		}
+		#vigilanza {
+			background-image: url('img/vigilanza.png');
+			background-size: 100px 100px;
+		}
+
+	/* SPAZIO OUTPUT */
+	.spazio-output {
+		display: block; 
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 30px;
+		width: 334px;
+		height: 110px;
+
+		background: black;
+		mix-blend-mode: normal;
+		border-radius:200px;
+		box-sizing: border-box;
+		box-shadow: 0px 4px 4px rgba(200, 200, 200, 0.5), inset 0px 2px 4px rgba(200, 200, 200, 0.5);
+	}
+
+		#output img {
+			width: 100px;
+			margin: 5px;
+			height: auto;
+			opacity: 100%;
+		}
+
+	/* MESSAGGIO DI AVVISO */
+	.avviso {
+		margin: auto;
+		margin-top: 10px;
+		width: 314px;
+		padding: 10px;
+		font-family: 'Helvetica';
+		font-size: 12px;
+		text-align: center;
+		color: white;
+		opacity: 0.7;	
+	}
+
+	/* SEGNO DI INVIO */
+	.invio {
+		margin: auto;
+		align-content: center;
+		margin-top: 10px;
+		margin-left: 20px;
+		width: 314px;
+		height: 15px;
+		padding: 10px;
+		opacity: 30%;
+	}
+
+
+	/* TESI del PROJ 02 */
+	.grid-container {
+		margin-left: 100px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		position: relative;
+		width: 830px;
+		display: grid;
+		grid-template-columns: repeat(6, 130px);
+		grid-template-rows: repeat(8, 130px);
+		column-gap: 10px;
+		row-gap: 20px;
+		width: 830px;
+	}
+		/* .grid-item {
+			border:2px solid orange;
+		} */
+	.img-item {
+		max-width: 100%;
+		max-height: 100%;
+		object-fit: cover;
+	}
+
+	.testo-logo {
+		margin-top: 10px;
+		text-align: center;
+	}
+	/* grid-area: row-start, column-start, row-end, column-end */
+	.item-1 {
+		grid-area: 1/5/2/6;
+		transform: scale(1);
+	}
+	.item-2 {
+		grid-area: 1/1/3/5;
+	}
+	.item-3 {
+		grid-area: 3/1/7/3;
+		border: 1px solid black;
+	}
+	.item-4 {
+		grid-area: 3/3/7/5;
+		border: 1px solid black;
+	}
+	.item-5 {
+		grid-area: 3/5/7/7;
+		border: 1px solid black;
+	}
+	.item-6 {
+		grid-area: 7/1/8/3;
+	}
+	.item-7 {
+		grid-area: 7/3/8/5;
+	}
+	.item-8 {
+		grid-area: 7/5/8/7;
+	}
+	.item-9 {
+		grid-area: 8/1/9/3;
+	}
+	/* indice */
+	.item-10 {
+		grid-area: 1/7/02/8;
+		text-align: center;
+	}
